@@ -1,7 +1,6 @@
 puts "Hello! I'm thinking of a number between 1 and 100. Please enter a number: "
 number = gets.chomp.to_i
 
-
 while number != 47
   if number < 47
     puts "too low, try again: "
@@ -15,9 +14,3 @@ while number != 47
 end
 
 puts "You win!"
-
-
-
-
-
-p number
